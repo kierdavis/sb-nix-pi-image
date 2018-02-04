@@ -3,6 +3,7 @@
 
 {
   imports = [
+    <nixpkgs/nixos/modules/installer/cd-dvd/sd-image-armv7l-multiplatform.nix>
     ./nix.nix
     ./robot.nix
   ];
