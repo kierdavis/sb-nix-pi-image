@@ -11,8 +11,8 @@ python35Packages.buildPythonApplication rec {
   src = fetchFromGitHub {
     owner = "sourcebots";
     repo = "robotd";
-    rev = "761eeb09f9a6052147de7ea2b3a7722c78db24b5";
-    sha256 = "1q44g8z4r8rnlkinrvwlrh9yc5hxzqn1mb31prny2wzjics83ybb";
+    rev = "e0be841816d4c778e98498193f6fd7e3de35813d";
+    sha256 = "1zi363304cc2f31ymh0ip1f6qhmvbsh29ybcgxkl0mblrq78jpcy";
   };
 
   buildInputs = [

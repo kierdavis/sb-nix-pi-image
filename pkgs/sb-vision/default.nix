@@ -10,8 +10,8 @@ python35Packages.buildPythonPackage rec {
   src = fetchFromGitHub {
     owner = "sourcebots";
     repo = "sb-vision";
-    rev = "6df539ee3a829c6574095c9295063af10a81b898";
-    sha256 = "1n8qk3qk3vm5ghb8vxgw92p011rnxsjaljl9brdz71qbcn0jx76n";
+    rev = "463f08731e4ce6b9cd7033f254fa43c43485e12e";
+    sha256 = "12ng4wfswvzapcwa0bxd32cqm7xxvgm1p54wjy2wh1a20brk1gs8";
   };
 
   # TODO: enable tests, but they're failing at the moment!

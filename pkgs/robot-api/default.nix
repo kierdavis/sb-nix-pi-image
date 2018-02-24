@@ -14,8 +14,8 @@ python35Packages.buildPythonPackage rec {
   src = fetchFromGitHub {
     owner = "sourcebots";
     repo = "robot-api";
-    rev = "933c896959d6cd6237d5ed10043f5dd9802f1545";
-    sha256 = "0xvlb1jnwn8771kbj3mdgcaifq44zdq3fjq1c5ascj4mlphws774";
+    rev = "5eb36c0d40e34fb2fb6c9c4997353f7d1e78db54";
+    sha256 = "0x0rw8294qchja9hwh8b0cldjpazlmh42a2d1sx0ss3hrvvciwkl";
   };
 
   propagatedBuildInputs = [

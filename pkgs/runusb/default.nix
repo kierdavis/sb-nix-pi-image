@@ -10,8 +10,8 @@ stdenv.mkDerivation rec {
   src = fetchFromGitHub {
     owner = "sourcebots";
     repo = "runusb";
-    rev = "2cb58ca3ded2004ee0a99bdffb600af7ad270443";
-    sha256 = "01y244px6s34kynh9fci0wj8ipdy4lq8d1ls9k5iacxjdd3lb5sk";
+    rev = "97f809a4b610a9030cfea403a73a135dca2f05df";
+    sha256 = "1spcp17vn6j7l00fgxyc0zrz4ylpa48sdp96lhwzk1g6vdzak8y0";
   };
 
   phases = [ "unpackPhase" "installPhase" "fixupPhase" ];
